@@ -1,280 +1,5 @@
 [
   {
-    "name": "Tachiyomi: AHottie",
-    "pkg": "eu.kanade.tachiyomi.extension.all.ahottie",
-    "apk": "tachiyomi-all.ahottie-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "AHottie",
-        "lang": "all",
-        "id": "6289731484943315811",
-        "baseUrl": "https://ahottie.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Akuma",
-    "pkg": "eu.kanade.tachiyomi.extension.all.akuma",
-    "apk": "tachiyomi-all.akuma-v1.4.7.apk",
-    "lang": "all",
-    "code": 7,
-    "version": "1.4.7",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Akuma",
-        "lang": "all",
-        "id": "1843646695111412994",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "en",
-        "id": "8524619729907384865",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "id",
-        "id": "1707768678643970514",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "jv",
-        "id": "3825200464570758229",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "ca",
-        "id": "186393818771246102",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "ceb",
-        "id": "5014742859693294263",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "cs",
-        "id": "3989593922015638091",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "da",
-        "id": "5988433661218368889",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "de",
-        "id": "8524245811050879736",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "et",
-        "id": "8167173986295647123",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "es",
-        "id": "5371778608318819884",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "eo",
-        "id": "77326570497325152",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "fr",
-        "id": "9222445553932717105",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "it",
-        "id": "5085561039221748061",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "hi",
-        "id": "1099564256126272699",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "hu",
-        "id": "1422819830508615430",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "nl",
-        "id": "5610655855358487221",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "pl",
-        "id": "8163761313345392776",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "pt",
-        "id": "5253884715906393116",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "vi",
-        "id": "1740877429814102450",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "tr",
-        "id": "2760962895634785428",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "ru",
-        "id": "7045343433771927648",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "uk",
-        "id": "5229751861519354976",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "ar",
-        "id": "8600626646399125374",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "ko",
-        "id": "8353987132172753017",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "zh",
-        "id": "7558912456429140642",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Akuma",
-        "lang": "ja",
-        "id": "5330127039501257395",
-        "baseUrl": "https://akuma.moe",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: AsmHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.asmhentai",
-    "apk": "tachiyomi-all.asmhentai-v1.4.7.apk",
-    "lang": "all",
-    "code": 7,
-    "version": "1.4.7",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "AsmHentai",
-        "lang": "en",
-        "id": "6135783261825346877",
-        "baseUrl": "https://asmhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "AsmHentai",
-        "lang": "ja",
-        "id": "7717437664180966273",
-        "baseUrl": "https://asmhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "AsmHentai",
-        "lang": "zh",
-        "id": "2819783147032745073",
-        "baseUrl": "https://asmhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "AsmHentai",
-        "lang": "all",
-        "id": "7786528235956058474",
-        "baseUrl": "https://asmhentai.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: BaoBua",
-    "pkg": "eu.kanade.tachiyomi.extension.all.baobua",
-    "apk": "tachiyomi-all.baobua-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "BaoBua",
-        "lang": "all",
-        "id": "514187608699312366",
-        "baseUrl": "https://www.baobua.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Bato.to",
     "pkg": "eu.kanade.tachiyomi.extension.all.batoto",
     "apk": "tachiyomi-all.batoto-v1.4.56.apk",
@@ -1021,42 +746,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: 3600000 Beauty",
-    "pkg": "eu.kanade.tachiyomi.extension.all.beauty3600000",
-    "apk": "tachiyomi-all.beauty3600000-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "3600000 Beauty",
-        "lang": "all",
-        "id": "5498091984644576825",
-        "baseUrl": "https://3600000.xyz",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Buon Dua",
-    "pkg": "eu.kanade.tachiyomi.extension.all.buondua",
-    "apk": "tachiyomi-all.buondua-v1.4.6.apk",
-    "lang": "all",
-    "code": 6,
-    "version": "1.4.6",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Buon Dua",
-        "lang": "all",
-        "id": "1435103006121310663",
-        "baseUrl": "https://buondua.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Comic Fury",
     "pkg": "eu.kanade.tachiyomi.extension.all.comicfury",
     "apk": "tachiyomi-all.comicfury-v1.4.5.apk",
@@ -1490,43 +1179,7 @@
         "versionId": 1
       }
     ]
-  },
-  {
-    "name": "Tachiyomi: Coomer",
-    "pkg": "eu.kanade.tachiyomi.extension.all.coomer",
-    "apk": "tachiyomi-all.coomer-v1.4.23.apk",
-    "lang": "all",
-    "code": 23,
-    "version": "1.4.23",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Coomer",
-        "lang": "all",
-        "id": "8715899195746116471",
-        "baseUrl": "https://coomer.st",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: CosplayTele",
-    "pkg": "eu.kanade.tachiyomi.extension.all.cosplaytele",
-    "apk": "tachiyomi-all.cosplaytele-v1.4.4.apk",
-    "lang": "all",
-    "code": 4,
-    "version": "1.4.4",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "CosplayTele",
-        "lang": "all",
-        "id": "7395748658970167454",
-        "baseUrl": "https://cosplaytele.com",
-        "versionId": 1
-      }
-    ]
-  },
+  },  
   {
     "name": "Tachiyomi: Cubari",
     "pkg": "eu.kanade.tachiyomi.extension.all.cubari",
@@ -1555,24 +1208,6 @@
         "lang": "other",
         "id": "2013845246758512290",
         "baseUrl": "https://cubari.moe",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Danbooru",
-    "pkg": "eu.kanade.tachiyomi.extension.all.danbooru",
-    "apk": "tachiyomi-all.danbooru-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Danbooru",
-        "lang": "all",
-        "id": "7602260701584916302",
-        "baseUrl": "https://danbooru.donmai.us",
         "versionId": 1
       }
     ]
@@ -1866,226 +1501,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: E-Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.ehentai",
-    "apk": "tachiyomi-all.ehentai-v1.4.26.apk",
-    "lang": "all",
-    "code": 26,
-    "version": "1.4.26",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "E-Hentai",
-        "lang": "ja",
-        "id": "8100626124886895451",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "en",
-        "id": "57122881048805941",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "zh",
-        "id": "4678440076103929247",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "nl",
-        "id": "1876021963378735852",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "fr",
-        "id": "3955189842350477641",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "de",
-        "id": "4348288691341764259",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "hu",
-        "id": "773611868725221145",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "it",
-        "id": "5759417018342755550",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "ko",
-        "id": "825187715438990384",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "pl",
-        "id": "6116711405602166104",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "pt-BR",
-        "id": "7151438547982231541",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "ru",
-        "id": "2171445159732592630",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "es",
-        "id": "3032959619549451093",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "th",
-        "id": "5980349886941016589",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "vi",
-        "id": "6073266008352078708",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "none",
-        "id": "5499077866612745456",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "other",
-        "id": "6140480779421365791",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Elite Babes",
-    "pkg": "eu.kanade.tachiyomi.extension.all.elitebabes",
-    "apk": "tachiyomi-all.elitebabes-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Elite Babes",
-        "lang": "all",
-        "id": "6842598531101194683",
-        "baseUrl": "https://www.elitebabes.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Everia.club",
-    "pkg": "eu.kanade.tachiyomi.extension.all.everiaclub",
-    "apk": "tachiyomi-all.everiaclub-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Everia.club",
-        "lang": "all",
-        "id": "7698513740234984368",
-        "baseUrl": "https://everia.club",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: EveriaClub (unoriginal)",
-    "pkg": "eu.kanade.tachiyomi.extension.all.everiaclubcom",
-    "apk": "tachiyomi-all.everiaclubcom-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "EveriaClub (unoriginal)",
-        "lang": "all",
-        "id": "8698756602692547891",
-        "baseUrl": "https://www.everiaclub.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Femjoy Hunter",
-    "pkg": "eu.kanade.tachiyomi.extension.all.femjoyhunter",
-    "apk": "tachiyomi-all.femjoyhunter-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Femjoy Hunter",
-        "lang": "all",
-        "id": "9185590742756804817",
-        "baseUrl": "https://www.femjoyhunter.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: FoamGirl",
-    "pkg": "eu.kanade.tachiyomi.extension.all.foamgirl",
-    "apk": "tachiyomi-all.foamgirl-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "FoamGirl",
-        "lang": "all",
-        "id": "5874068195320206396",
-        "baseUrl": "https://foamgirl.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: FoolSlide Customizable",
     "pkg": "eu.kanade.tachiyomi.extension.all.foolslidecustomizable",
     "apk": "tachiyomi-all.foolslidecustomizable-v1.4.4.apk",
@@ -2099,24 +1514,6 @@
         "lang": "other",
         "id": "6351052922295965587",
         "baseUrl": "https://127.0.0.1",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: FTV Hunter",
-    "pkg": "eu.kanade.tachiyomi.extension.all.ftvhunter",
-    "apk": "tachiyomi-all.ftvhunter-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "FTV Hunter",
-        "lang": "all",
-        "id": "2424130356866336342",
-        "baseUrl": "https://www.ftvhunter.com",
         "versionId": 1
       }
     ]
@@ -2436,819 +1833,7 @@
         "versionId": 1
       }
     ]
-  },
-  {
-    "name": "Tachiyomi: Hennojin",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hennojin",
-    "apk": "tachiyomi-all.hennojin-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hennojin",
-        "lang": "en",
-        "id": "2486465102799235219",
-        "baseUrl": "https://hennojin.com",
-        "versionId": 1
-      },
-      {
-        "name": "Hennojin",
-        "lang": "ja",
-        "id": "6754172311859665554",
-        "baseUrl": "https://hennojin.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: 3Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hentai3",
-    "apk": "tachiyomi-all.hentai3-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "3Hentai",
-        "lang": "all",
-        "id": "6915411826598362561",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "en",
-        "id": "7819216870104067677",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "ja",
-        "id": "2859097949969075077",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "ko",
-        "id": "1633661983859923604",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "zh",
-        "id": "6260479722543828095",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "mo",
-        "id": "8615096170305162493",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "es",
-        "id": "373755159908438683",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "pt",
-        "id": "1132983959765816866",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "id",
-        "id": "49558592523574241",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "jv",
-        "id": "7615826761003926053",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "tl",
-        "id": "3940534831604021485",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "vi",
-        "id": "6096870058125388335",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "th",
-        "id": "3039466073711396152",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "my",
-        "id": "3523364768003208635",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "tr",
-        "id": "359674482170560410",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "ru",
-        "id": "4917651850397277037",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "uk",
-        "id": "3501213105339612791",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "po",
-        "id": "7940950215101782907",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "fi",
-        "id": "685390685036083849",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "de",
-        "id": "7057309244033446342",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "it",
-        "id": "419728421305339582",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "fr",
-        "id": "4290439286788644779",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "nl",
-        "id": "7640863230103182507",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "cs",
-        "id": "3862668659803323645",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "hu",
-        "id": "8643172240389130297",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "bg",
-        "id": "2158865776377405902",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "is",
-        "id": "8884989104958593922",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "la",
-        "id": "5003216810967182175",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "3Hentai",
-        "lang": "ar",
-        "id": "1533969146563051444",
-        "baseUrl": "https://3hentai.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentai Cosplay",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hentaicosplay",
-    "apk": "tachiyomi-all.hentaicosplay-v1.4.6.apk",
-    "lang": "all",
-    "code": 6,
-    "version": "1.4.6",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai Cosplay",
-        "lang": "all",
-        "id": "3422463439145930309",
-        "baseUrl": "https://hentai-cosplay-xxx.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiEra",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hentaiera",
-    "apk": "tachiyomi-all.hentaiera-v1.4.6.apk",
-    "lang": "all",
-    "code": 6,
-    "version": "1.4.6",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiEra",
-        "lang": "en",
-        "id": "647637185891033517",
-        "baseUrl": "https://hentaiera.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiEra",
-        "lang": "ja",
-        "id": "2492666945996599997",
-        "baseUrl": "https://hentaiera.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiEra",
-        "lang": "es",
-        "id": "1720815810677381837",
-        "baseUrl": "https://hentaiera.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiEra",
-        "lang": "fr",
-        "id": "6887659515539839354",
-        "baseUrl": "https://hentaiera.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiEra",
-        "lang": "ko",
-        "id": "5930644847758440964",
-        "baseUrl": "https://hentaiera.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiEra",
-        "lang": "de",
-        "id": "1901100795183424105",
-        "baseUrl": "https://hentaiera.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiEra",
-        "lang": "ru",
-        "id": "4966955732363898584",
-        "baseUrl": "https://hentaiera.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiEra",
-        "lang": "all",
-        "id": "5238899243957092391",
-        "baseUrl": "https://hentaiera.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiFox",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hentaifox",
-    "apk": "tachiyomi-all.hentaifox-v1.4.11.apk",
-    "lang": "all",
-    "code": 11,
-    "version": "1.4.11",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiFox",
-        "lang": "en",
-        "id": "7945033982379409892",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiFox",
-        "lang": "ja",
-        "id": "8640201438684762638",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiFox",
-        "lang": "zh",
-        "id": "3252050349835097844",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiFox",
-        "lang": "ko",
-        "id": "2146024794445748144",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiFox",
-        "lang": "all",
-        "id": "2697587119837846427",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiHand",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hentaihand",
-    "apk": "tachiyomi-all.hentaihand-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiHand",
-        "lang": "all",
-        "id": "1235047015955289468",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "en",
-        "id": "1438773694780928937",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "zh",
-        "id": "866133291730804205",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ja",
-        "id": "4992571563369273240",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "other",
-        "id": "7302549142935671434",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "eo",
-        "id": "6189674531673390664",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ceb",
-        "id": "2136686110556284465",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "cs",
-        "id": "6818645358118704394",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ar",
-        "id": "5494684486943087247",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "sk",
-        "id": "3548394435548008920",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "mn",
-        "id": "4197081087116305652",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "uk",
-        "id": "299569391162966579",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "la",
-        "id": "3078530910469685147",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "tl",
-        "id": "8205998909543626240",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "es",
-        "id": "1049245690865797006",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "it",
-        "id": "8272502917504358946",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ko",
-        "id": "2772498967425526818",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "th",
-        "id": "392245224742696225",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "pl",
-        "id": "6173663752022195918",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "fr",
-        "id": "2304134427430911086",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "pt-BR",
-        "id": "2516244587139644000",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "de",
-        "id": "8300414741852788090",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "fi",
-        "id": "4855613465785451164",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ru",
-        "id": "5788099943016900736",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "hu",
-        "id": "6490746811386262494",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "id",
-        "id": "202981519301875762",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "vi",
-        "id": "474754362133655719",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "nl",
-        "id": "7899387259192038112",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "hi",
-        "id": "1337874080374168573",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "tr",
-        "id": "6304497572870246566",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "el",
-        "id": "9098484674492839156",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "sr",
-        "id": "259350817779848434",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "jv",
-        "id": "8174384290387590645",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "bg",
-        "id": "7561346598466986562",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hitomi",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hitomi",
-    "apk": "tachiyomi-all.hitomi-v1.4.41.apk",
-    "lang": "all",
-    "code": 41,
-    "version": "1.4.41",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hitomi",
-        "lang": "all",
-        "id": "690123758188633713",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "en",
-        "id": "8758194323514078879",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "id",
-        "id": "1151065481637272954",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "jv",
-        "id": "6508906416202704914",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "ca",
-        "id": "6511868096744396893",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "ceb",
-        "id": "4174246577531268343",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "cs",
-        "id": "6252839110189358321",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "da",
-        "id": "846229581721942637",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "de",
-        "id": "3527959698638681794",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "et",
-        "id": "3137387913459348191",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "es",
-        "id": "4675241818028365305",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "eo",
-        "id": "2806629479137588090",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "fr",
-        "id": "2485667029890093714",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "it",
-        "id": "6889006204051558344",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "hi",
-        "id": "1934919967422980093",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "hu",
-        "id": "5925216506653833737",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "pl",
-        "id": "721961972020678864",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "pt",
-        "id": "5342308195627947507",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "vi",
-        "id": "3818599797217502124",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "tr",
-        "id": "5379755699214980223",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "ru",
-        "id": "3909280091773603050",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "uk",
-        "id": "4074034220834832549",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "ar",
-        "id": "6776904750010591906",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "ko",
-        "id": "9053782715781498920",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "zh",
-        "id": "1859528116737393976",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      },
-      {
-        "name": "Hitomi",
-        "lang": "ja",
-        "id": "7152495211541141858",
-        "baseUrl": "https://hitomi.la",
-        "versionId": 1
-      }
-    ]
-  },
+  }, 
   {
     "name": "Tachiyomi: HNI-Scantrad",
     "pkg": "eu.kanade.tachiyomi.extension.all.hniscantrad",
@@ -3300,73 +1885,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: IMHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.imhentai",
-    "apk": "tachiyomi-all.imhentai-v1.4.20.apk",
-    "lang": "all",
-    "code": 20,
-    "version": "1.4.20",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "IMHentai",
-        "lang": "en",
-        "id": "1797754663718263026",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      },
-      {
-        "name": "IMHentai",
-        "lang": "ja",
-        "id": "2843704102372436364",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      },
-      {
-        "name": "IMHentai",
-        "lang": "es",
-        "id": "1600533831542201953",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      },
-      {
-        "name": "IMHentai",
-        "lang": "fr",
-        "id": "6518732459102419415",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      },
-      {
-        "name": "IMHentai",
-        "lang": "ko",
-        "id": "520535890722709208",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      },
-      {
-        "name": "IMHentai",
-        "lang": "de",
-        "id": "341676138799608238",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      },
-      {
-        "name": "IMHentai",
-        "lang": "ru",
-        "id": "7505608677115153818",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      },
-      {
-        "name": "IMHentai",
-        "lang": "all",
-        "id": "3395462671769287908",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: izneo (webtoons)",
     "pkg": "eu.kanade.tachiyomi.extension.all.izneo",
     "apk": "tachiyomi-all.izneo-v1.4.8.apk",
@@ -3391,42 +1909,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Joymii Hub",
-    "pkg": "eu.kanade.tachiyomi.extension.all.joymiihub",
-    "apk": "tachiyomi-all.joymiihub-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Joymii Hub",
-        "lang": "all",
-        "id": "8421979328901634475",
-        "baseUrl": "https://www.joymiihub.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Junmeitu",
-    "pkg": "eu.kanade.tachiyomi.extension.all.junmeitu",
-    "apk": "tachiyomi-all.junmeitu-v1.4.6.apk",
-    "lang": "all",
-    "code": 6,
-    "version": "1.4.6",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Junmeitu",
-        "lang": "all",
-        "id": "4721197766605490540",
-        "baseUrl": "https://meijuntu.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Kemono",
     "pkg": "eu.kanade.tachiyomi.extension.all.kemono",
@@ -5700,24 +4183,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Mihentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mihentai",
-    "apk": "tachiyomi-all.mihentai-v1.4.32.apk",
-    "lang": "all",
-    "code": 32,
-    "version": "1.4.32",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Mihentai",
-        "lang": "all",
-        "id": "3558188315762724556",
-        "baseUrl": "https://mihentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: MissKon",
     "pkg": "eu.kanade.tachiyomi.extension.all.misskon",
@@ -6168,210 +4634,8 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: NHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.nhentai",
-    "apk": "tachiyomi-all.nhentai-v1.4.54.apk",
-    "lang": "all",
-    "code": 54,
-    "version": "1.4.54",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "NHentai",
-        "lang": "en",
-        "id": "3122156392225024195",
-        "baseUrl": "https://nhentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "NHentai",
-        "lang": "ja",
-        "id": "4726175775739752699",
-        "baseUrl": "https://nhentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "NHentai",
-        "lang": "zh",
-        "id": "2203215402871965477",
-        "baseUrl": "https://nhentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "NHentai",
-        "lang": "all",
-        "id": "7309872737163460316",
-        "baseUrl": "https://nhentai.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: nHentai.com (unoriginal)",
-    "pkg": "eu.kanade.tachiyomi.extension.all.nhentaicom",
-    "apk": "tachiyomi-all.nhentaicom-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "all",
-        "id": "9165839893600661480",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "zh",
-        "id": "8504927104562262528",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "en",
-        "id": "5591830863732393712",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "ja",
-        "id": "8148939977393580424",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "other",
-        "id": "5817327335315373850",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "ar",
-        "id": "1773653553472615327",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "jv",
-        "id": "4984830439465026319",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "bg",
-        "id": "5355858532116403799",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "cs",
-        "id": "1144495813995437124",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "uk",
-        "id": "1872394332504252034",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "sk",
-        "id": "8189813976393792973",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "eo",
-        "id": "5464986831390726554",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "mn",
-        "id": "3640686393110022124",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "la",
-        "id": "6750311061190710079",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "ceb",
-        "id": "8306394815737846919",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "tl",
-        "id": "4352420071178605258",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "fi",
-        "id": "8555144793292118035",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "tr",
-        "id": "6423038744951581148",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "sr",
-        "id": "1001519209586733699",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "el",
-        "id": "6038464145206378323",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "ko",
-        "id": "6508316838749142103",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "ro",
-        "id": "8274834393370700931",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
+  
   {
     "name": "Tachiyomi: NineManga",
     "pkg": "eu.kanade.tachiyomi.extension.all.ninemanga",
@@ -6954,87 +5218,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Simply Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.simplyhentai",
-    "apk": "tachiyomi-all.simplyhentai-v1.4.8.apk",
-    "lang": "all",
-    "code": 8,
-    "version": "1.4.8",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Simply Hentai",
-        "lang": "en",
-        "id": "298934354390867671",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "ja",
-        "id": "752674984993743406",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "zh",
-        "id": "6411097384584116028",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "ko",
-        "id": "5425671014693930239",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "es",
-        "id": "666623320329622877",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "ru",
-        "id": "5942590313591365439",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "fr",
-        "id": "4451316190554848827",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "de",
-        "id": "5791709100642569951",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "it",
-        "id": "9142653224816805805",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      },
-      {
-        "name": "Simply Hentai",
-        "lang": "pl",
-        "id": "2725673328914321866",
-        "baseUrl": "https://www.simply-hentai.com",
-        "versionId": 2
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Taddy INK (Webtoons)",
     "pkg": "eu.kanade.tachiyomi.extension.all.taddyink",
@@ -7765,24 +5949,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Arabs Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.ar.arabshentai",
-    "apk": "tachiyomi-ar.arabshentai-v1.4.2.apk",
-    "lang": "ar",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "هنتاي العرب",
-        "lang": "ar",
-        "id": "3472625749271868375",
-        "baseUrl": "https://arabshentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Arab Toons",
     "pkg": "eu.kanade.tachiyomi.extension.ar.arabtoons",
@@ -7945,24 +6112,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Hentai Slayer",
-    "pkg": "eu.kanade.tachiyomi.extension.ar.hentaislayer",
-    "apk": "tachiyomi-ar.hentaislayer-v1.4.4.apk",
-    "lang": "ar",
-    "code": 4,
-    "version": "1.4.4",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "هنتاي سلاير",
-        "lang": "ar",
-        "id": "1383489648660567366",
-        "baseUrl": "https://hentaislayer.net",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Hijala",
     "pkg": "eu.kanade.tachiyomi.extension.ar.hijala",
@@ -8647,24 +6797,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Hentai.cat",
-    "pkg": "eu.kanade.tachiyomi.extension.ca.fansubscathentai",
-    "apk": "tachiyomi-ca.fansubscathentai-v1.4.6.apk",
-    "lang": "ca",
-    "code": 6,
-    "version": "1.4.6",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai.cat",
-        "lang": "ca",
-        "id": "7575385310756416449",
-        "baseUrl": "https://manga.hentai.cat",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Evil production",
     "pkg": "eu.kanade.tachiyomi.extension.cs.evilproduction",
@@ -9169,24 +7302,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: BeeHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.en.beehentai",
-    "apk": "tachiyomi-en.beehentai-v1.4.19.apk",
-    "lang": "en",
-    "code": 19,
-    "version": "1.4.19",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "BeeHentai",
-        "lang": "en",
-        "id": "3819152328997277823",
-        "baseUrl": "https://beehentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: BookWalker Global",
     "pkg": "eu.kanade.tachiyomi.extension.en.bookwalker",
@@ -10385,258 +8501,13 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Hentai20",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentai20",
-    "apk": "tachiyomi-en.hentai20-v1.4.39.apk",
-    "lang": "en",
-    "code": 39,
-    "version": "1.4.39",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai20",
-        "lang": "en",
-        "id": "7114409483685920616",
-        "baseUrl": "https://hentai20.io",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentai2Read",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentai2read",
-    "apk": "tachiyomi-en.hentai2read-v1.4.17.apk",
-    "lang": "en",
-    "code": 17,
-    "version": "1.4.17",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai2Read",
-        "lang": "en",
-        "id": "8314925449740051373",
-        "baseUrl": "https://hentai2read.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentai3z.CC",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentai3zcc",
-    "apk": "tachiyomi-en.hentai3zcc-v1.4.1.apk",
-    "lang": "en",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai3z.CC",
-        "lang": "en",
-        "id": "1647077515907093606",
-        "baseUrl": "https://hentai3z.cc",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentai4Free",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentai4free",
-    "apk": "tachiyomi-en.hentai4free-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai4Free",
-        "lang": "en",
-        "id": "6625474581258090106",
-        "baseUrl": "https://hentai4free.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiDex",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaidex",
-    "apk": "tachiyomi-en.hentaidex-v1.4.32.apk",
-    "lang": "en",
-    "code": 32,
-    "version": "1.4.32",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiDex",
-        "lang": "en",
-        "id": "948056929092229440",
-        "baseUrl": "https://dexhentai.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentaidexy",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaidexy",
-    "apk": "tachiyomi-en.hentaidexy-v1.4.34.apk",
-    "lang": "en",
-    "code": 34,
-    "version": "1.4.34",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentaidexy",
-        "lang": "en",
-        "id": "3234990606508661587",
-        "baseUrl": "https://dexyscan.com",
-        "versionId": 2
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiHere",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaihere",
-    "apk": "tachiyomi-en.hentaihere-v1.4.5.apk",
-    "lang": "en",
-    "code": 5,
-    "version": "1.4.5",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiHere",
-        "lang": "en",
-        "id": "7266624490370375187",
-        "baseUrl": "https://hentaihere.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentai Manga",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaimanga",
-    "apk": "tachiyomi-en.hentaimanga-v1.4.47.apk",
-    "lang": "en",
-    "code": 47,
-    "version": "1.4.47",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai Manga",
-        "lang": "en",
-        "id": "3163047467563545761",
-        "baseUrl": "https://hentaimanga.me",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiNexus",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentainexus",
-    "apk": "tachiyomi-en.hentainexus-v1.4.12.apk",
-    "lang": "en",
-    "code": 12,
-    "version": "1.4.12",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiNexus",
-        "lang": "en",
-        "id": "7719798645438596394",
-        "baseUrl": "https://hentainexus.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiRead",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentairead",
-    "apk": "tachiyomi-en.hentairead-v1.4.55.apk",
-    "lang": "en",
-    "code": 55,
-    "version": "1.4.55",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiRead",
-        "lang": "en",
-        "id": "2299981010822511979",
-        "baseUrl": "https://hentairead.com",
-        "versionId": 2
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiWebtoon",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaiwebtoon",
-    "apk": "tachiyomi-en.hentaiwebtoon-v1.4.48.apk",
-    "lang": "en",
-    "code": 48,
-    "version": "1.4.48",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiWebtoon",
-        "lang": "en",
-        "id": "2169095193218965413",
-        "baseUrl": "https://hentaiwebtoon.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiXComic",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaixcomic",
-    "apk": "tachiyomi-en.hentaixcomic-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiXComic",
-        "lang": "en",
-        "id": "7664311260874726882",
-        "baseUrl": "https://hentaixcomic.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiXDickgirl",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaixdickgirl",
-    "apk": "tachiyomi-en.hentaixdickgirl-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiXDickgirl",
-        "lang": "en",
-        "id": "918523496924275699",
-        "baseUrl": "https://hentaixdickgirl.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiXYuri",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaixyuri",
-    "apk": "tachiyomi-en.hentaixyuri-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiXYuri",
-        "lang": "en",
-        "id": "1089473637776666044",
-        "baseUrl": "https://hentaixyuri.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
+  
+  
+  
+  
+  
+  
   {
     "name": "Tachiyomi: HeyToon",
     "pkg": "eu.kanade.tachiyomi.extension.en.heytoon",
@@ -11915,24 +9786,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Manga Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.en.mangahentai",
-    "apk": "tachiyomi-en.mangahentai-v1.4.49.apk",
-    "lang": "en",
-    "code": 49,
-    "version": "1.4.49",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manga Hentai",
-        "lang": "en",
-        "id": "8728648053438602039",
-        "baseUrl": "https://mangahentai.me",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Mangahere",
     "pkg": "eu.kanade.tachiyomi.extension.en.mangahere",
@@ -13067,42 +10921,8 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Manhwa Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.en.manhwahentai",
-    "apk": "tachiyomi-en.manhwahentai-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manhwa Hentai",
-        "lang": "en",
-        "id": "5733146869195184954",
-        "baseUrl": "https://manhwahentai.to",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Manhwahentai.me",
-    "pkg": "eu.kanade.tachiyomi.extension.en.manhwahentaime",
-    "apk": "tachiyomi-en.manhwahentaime-v1.4.52.apk",
-    "lang": "en",
-    "code": 52,
-    "version": "1.4.52",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manhwahentai.me",
-        "lang": "en",
-        "id": "40220656998728984",
-        "baseUrl": "https://manhwahentai.me",
-        "versionId": 1
-      }
-    ]
-  },
+  
+  
   {
     "name": "Tachiyomi: ManhwaHub",
     "pkg": "eu.kanade.tachiyomi.extension.en.manhwahub",
@@ -13229,24 +11049,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Manhwa XXL",
-    "pkg": "eu.kanade.tachiyomi.extension.en.manhwaxxl",
-    "apk": "tachiyomi-en.manhwaxxl-v1.4.3.apk",
-    "lang": "en",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manhwa XXL",
-        "lang": "en",
-        "id": "1823408414151467671",
-        "baseUrl": "https://hentaitnt.net",
-        "versionId": 2
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: ManhwaZ",
     "pkg": "eu.kanade.tachiyomi.extension.en.manhwaz",
@@ -13516,42 +11319,8 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: MyHentaiComics",
-    "pkg": "eu.kanade.tachiyomi.extension.en.myhentaicomics",
-    "apk": "tachiyomi-en.myhentaicomics-v1.4.3.apk",
-    "lang": "en",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "MyHentaiComics",
-        "lang": "en",
-        "id": "4899971628155084225",
-        "baseUrl": "https://myhentaicomics.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: MyHentaiGallery",
-    "pkg": "eu.kanade.tachiyomi.extension.en.myhentaigallery",
-    "apk": "tachiyomi-en.myhentaigallery-v1.4.6.apk",
-    "lang": "en",
-    "code": 6,
-    "version": "1.4.6",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "MyHentaiGallery",
-        "lang": "en",
-        "id": "7327582601422280123",
-        "baseUrl": "https://myhentaigallery.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
+  
   {
     "name": "Tachiyomi: Necro Scans",
     "pkg": "eu.kanade.tachiyomi.extension.en.necroscans",
@@ -13606,24 +11375,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: NineHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.en.ninehentai",
-    "apk": "tachiyomi-en.ninehentai-v1.4.4.apk",
-    "lang": "en",
-    "code": 4,
-    "version": "1.4.4",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "NineHentai",
-        "lang": "en",
-        "id": "7689490563697355048",
-        "baseUrl": "https://9hentai.so",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Nitro Scans",
     "pkg": "eu.kanade.tachiyomi.extension.en.nitroscans",
@@ -15208,24 +12960,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: SpyFakku",
-    "pkg": "eu.kanade.tachiyomi.extension.en.spyfakku",
-    "apk": "tachiyomi-en.spyfakku-v1.4.11.apk",
-    "lang": "en",
-    "code": 11,
-    "version": "1.4.11",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "SpyFakku",
-        "lang": "en",
-        "id": "6202325652827735606",
-        "baseUrl": "https://hentalk.pw",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: StoneScape",
     "pkg": "eu.kanade.tachiyomi.extension.en.stonescape",
@@ -16781,24 +14516,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: DoujinHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.es.doujinhentai",
-    "apk": "tachiyomi-es.doujinhentai-v1.4.47.apk",
-    "lang": "es",
-    "code": 47,
-    "version": "1.4.47",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "DoujinHentai",
-        "lang": "es",
-        "id": "3895171315878328595",
-        "baseUrl": "https://doujinhentai.net",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: DoujinsHell",
     "pkg": "eu.kanade.tachiyomi.extension.es.doujinshell",
@@ -17015,24 +14733,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: HentaiMode",
-    "pkg": "eu.kanade.tachiyomi.extension.es.hentaimode",
-    "apk": "tachiyomi-es.hentaimode-v1.4.3.apk",
-    "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiMode",
-        "lang": "es",
-        "id": "5208759847357095642",
-        "baseUrl": "https://hentaimode.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Ikigai Mangas",
     "pkg": "eu.kanade.tachiyomi.extension.es.ikigaimangas",
@@ -17051,24 +14752,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Ikuhentai",
-    "pkg": "eu.kanade.tachiyomi.extension.es.ikuhentai",
-    "apk": "tachiyomi-es.ikuhentai-v1.4.2.apk",
-    "lang": "es",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Ikuhentai",
-        "lang": "es",
-        "id": "7567013997438852760",
-        "baseUrl": "https://ikuhentai.net/",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Inari Manga",
     "pkg": "eu.kanade.tachiyomi.extension.es.inarimanga",
@@ -18095,24 +15779,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: TMOHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.es.tmohentai",
-    "apk": "tachiyomi-es.tmohentai-v1.4.10.apk",
-    "lang": "es",
-    "code": 10,
-    "version": "1.4.10",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "TMOHentai",
-        "lang": "es",
-        "id": "8385948079634749158",
-        "baseUrl": "https://tmohentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: TMO Manga",
     "pkg": "eu.kanade.tachiyomi.extension.es.tmomanga",
@@ -18570,78 +16237,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Hentai Origines",
-    "pkg": "eu.kanade.tachiyomi.extension.fr.hentaiorigines",
-    "apk": "tachiyomi-fr.hentaiorigines-v1.4.45.apk",
-    "lang": "fr",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai Origines",
-        "lang": "fr",
-        "id": "3875672872924535086",
-        "baseUrl": "https://hentai-origines.fr",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentai-Scantrad",
-    "pkg": "eu.kanade.tachiyomi.extension.fr.hentaiscantrad",
-    "apk": "tachiyomi-fr.hentaiscantrad-v1.4.46.apk",
-    "lang": "fr",
-    "code": 46,
-    "version": "1.4.46",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai-Scantrad",
-        "lang": "fr",
-        "id": "6747208512135394944",
-        "baseUrl": "https://hentai.scantrad-vf.cc",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiZone",
-    "pkg": "eu.kanade.tachiyomi.extension.fr.hentaizone",
-    "apk": "tachiyomi-fr.hentaizone-v1.4.46.apk",
-    "lang": "fr",
-    "code": 46,
-    "version": "1.4.46",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiZone",
-        "lang": "fr",
-        "id": "4897336575284771091",
-        "baseUrl": "https://hentaizone.xyz",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HistoireDHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.fr.histoiredhentai",
-    "apk": "tachiyomi-fr.histoiredhentai-v1.4.45.apk",
-    "lang": "fr",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HistoireDHentai",
-        "lang": "fr",
-        "id": "6899189456839494153",
-        "baseUrl": "https://hhentai.fr",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Inova Scan Manga",
     "pkg": "eu.kanade.tachiyomi.extension.fr.inovascanmanga",
@@ -18768,24 +16364,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Pornhwa Scans",
-    "pkg": "eu.kanade.tachiyomi.extension.fr.lunarscanshentai",
-    "apk": "tachiyomi-fr.lunarscanshentai-v1.4.32.apk",
-    "lang": "fr",
-    "code": 32,
-    "version": "1.4.32",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Pornhwa Scans",
-        "lang": "fr",
-        "id": "5554585746492602896",
-        "baseUrl": "https://pornhwascans.fr",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Manga-Corporation",
     "pkg": "eu.kanade.tachiyomi.extension.fr.mangacorporation",
@@ -19038,24 +16617,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: X-Manga",
-    "pkg": "eu.kanade.tachiyomi.extension.fr.scanhentaimenu",
-    "apk": "tachiyomi-fr.scanhentaimenu-v1.4.48.apk",
-    "lang": "fr",
-    "code": 48,
-    "version": "1.4.48",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "X-Manga",
-        "lang": "fr",
-        "id": "4153742697148883998",
-        "baseUrl": "https://x-manga.org",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Scan-Manga",
     "pkg": "eu.kanade.tachiyomi.extension.fr.scanmanga",
@@ -20532,42 +18094,8 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: HentaiArchive",
-    "pkg": "eu.kanade.tachiyomi.extension.it.hentaiarchive",
-    "apk": "tachiyomi-it.hentaiarchive-v1.4.2.apk",
-    "lang": "it",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiArchive",
-        "lang": "it",
-        "id": "6052929656772429531",
-        "baseUrl": "https://www.hentai-archive.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiFantasy",
-    "pkg": "eu.kanade.tachiyomi.extension.it.hentaifantasy",
-    "apk": "tachiyomi-it.hentaifantasy-v1.4.6.apk",
-    "lang": "it",
-    "code": 6,
-    "version": "1.4.6",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiFantasy",
-        "lang": "it",
-        "id": "398037379041422243",
-        "baseUrl": "https://hentaifantasy.it/index.php",
-        "versionId": 1
-      }
-    ]
-  },
+ 
+  
   {
     "name": "Tachiyomi: LupiTeam",
     "pkg": "eu.kanade.tachiyomi.extension.it.lupiteam",
@@ -22212,24 +19740,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Argos Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.argoshentai",
-    "apk": "tachiyomi-pt.argoshentai-v1.4.45.apk",
-    "lang": "pt-BR",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Argos Hentai",
-        "lang": "pt-BR",
-        "id": "4098235600934784466",
-        "baseUrl": "https://argoshentai.xyz",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Argos Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.argosscan",
@@ -22374,24 +19885,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Brasil Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.brasilhentai",
-    "apk": "tachiyomi-pt.brasilhentai-v1.4.2.apk",
-    "lang": "pt-BR",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Brasil Hentai",
-        "lang": "pt-BR",
-        "id": "8020430975962445741",
-        "baseUrl": "https://brasilhentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+ 
   {
     "name": "Tachiyomi: BR Mangás",
     "pkg": "eu.kanade.tachiyomi.extension.pt.brmangastop",
@@ -22590,24 +20084,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: ExHentai.net.br",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.exhentainetbr",
-    "apk": "tachiyomi-pt.exhentainetbr-v1.4.1.apk",
-    "lang": "pt-BR",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "ExHentai.net.br",
-        "lang": "pt-BR",
-        "id": "1408140394859123923",
-        "baseUrl": "https://exhentai.net.br",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Fênix Manhwas",
     "pkg": "eu.kanade.tachiyomi.extension.pt.fenixmanhwas",
@@ -22770,60 +20247,9 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Hentai Season",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.hentaiseason",
-    "apk": "tachiyomi-pt.hentaiseason-v1.4.5.apk",
-    "lang": "pt-BR",
-    "code": 5,
-    "version": "1.4.5",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai Season",
-        "lang": "pt-BR",
-        "id": "28629678708276",
-        "baseUrl": "https://hentaiseason.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentai Teca",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.hentaiteca",
-    "apk": "tachiyomi-pt.hentaiteca-v1.4.48.apk",
-    "lang": "pt-BR",
-    "code": 48,
-    "version": "1.4.48",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai Teca",
-        "lang": "pt-BR",
-        "id": "5744105605190975461",
-        "baseUrl": "https://hentaiteca.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Hentai Tokyo",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.hentaitokyo",
-    "apk": "tachiyomi-pt.hentaitokyo-v1.4.5.apk",
-    "lang": "pt-BR",
-    "code": 5,
-    "version": "1.4.5",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hentai Tokyo",
-        "lang": "pt-BR",
-        "id": "7059984733794571635",
-        "baseUrl": "https://hentaitokyo.net",
-        "versionId": 1
-      }
-    ]
-  },
+  
+  
+  
   {
     "name": "Tachiyomi: Hianato Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.hianatoscan",
@@ -23076,24 +20502,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Ler Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.lerhentai",
-    "apk": "tachiyomi-pt.lerhentai-v1.4.45.apk",
-    "lang": "pt-BR",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Ler Hentai",
-        "lang": "pt-BR",
-        "id": "2222846466996397768",
-        "baseUrl": "https://lerhentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Ler Mangas",
     "pkg": "eu.kanade.tachiyomi.extension.pt.lermangas",
@@ -23508,42 +20917,8 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Muito Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.muitohentai",
-    "apk": "tachiyomi-pt.muitohentai-v1.4.2.apk",
-    "lang": "pt-BR",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Muito Hentai",
-        "lang": "pt-BR",
-        "id": "1062606379654091909",
-        "baseUrl": "https://www.muitohentai.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Mundo Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.mundohentai",
-    "apk": "tachiyomi-pt.mundohentai-v1.4.8.apk",
-    "lang": "pt-BR",
-    "code": 8,
-    "version": "1.4.8",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Mundo Hentai",
-        "lang": "pt-BR",
-        "id": "141171756957474060",
-        "baseUrl": "https://mundohentaioficial.com",
-        "versionId": 2
-      }
-    ]
-  },
+  
+  
   {
     "name": "Tachiyomi: Mystic Moon",
     "pkg": "eu.kanade.tachiyomi.extension.pt.mysticmoon",
@@ -24138,24 +21513,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Tankou Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.tankouhentai",
-    "apk": "tachiyomi-pt.tankouhentai-v1.4.45.apk",
-    "lang": "pt-BR",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Tankou Hentai",
-        "lang": "pt-BR",
-        "id": "9200419821846585447",
-        "baseUrl": "https://tankouhentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Tao Sect",
     "pkg": "eu.kanade.tachiyomi.extension.pt.taosect",
@@ -24264,24 +21622,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Universo Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.universohentai",
-    "apk": "tachiyomi-pt.universohentai-v1.4.5.apk",
-    "lang": "pt-BR",
-    "code": 5,
-    "version": "1.4.5",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Universo Hentai",
-        "lang": "pt-BR",
-        "id": "4207492914234184899",
-        "baseUrl": "https://universohentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Wind Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.windscan",
@@ -24498,24 +21839,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: AllHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.ru.allhentai",
-    "apk": "tachiyomi-ru.allhentai-v1.4.59.apk",
-    "lang": "ru",
-    "code": 59,
-    "version": "1.4.59",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "AllHentai",
-        "lang": "ru",
-        "id": "1809051393403180443",
-        "baseUrl": "https://20.allhen.online",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Com-X",
     "pkg": "eu.kanade.tachiyomi.extension.ru.comx",
@@ -24552,42 +21876,8 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: HenChan",
-    "pkg": "eu.kanade.tachiyomi.extension.ru.henchan",
-    "apk": "tachiyomi-ru.henchan-v1.4.45.apk",
-    "lang": "ru",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HenChan",
-        "lang": "ru",
-        "id": "5504588601186153612",
-        "baseUrl": "https://xxl.hentaichan.live",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiLib",
-    "pkg": "eu.kanade.tachiyomi.extension.ru.hentailib",
-    "apk": "tachiyomi-ru.hentailib-v1.4.57.apk",
-    "lang": "ru",
-    "code": 57,
-    "version": "1.4.57",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiLib",
-        "lang": "ru",
-        "id": "6425650164840473547",
-        "baseUrl": "https://hentailib.me",
-        "versionId": 1
-      }
-    ]
-  },
+  
+  
   {
     "name": "Tachiyomi: MangaBuff",
     "pkg": "eu.kanade.tachiyomi.extension.ru.mangabuff",
@@ -25920,24 +23210,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Ghost Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.tr.ghosthentai",
-    "apk": "tachiyomi-tr.ghosthentai-v1.4.45.apk",
-    "lang": "tr",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Ghost Hentai",
-        "lang": "tr",
-        "id": "8123244641427878412",
-        "baseUrl": "https://ghosthentai.com",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Gölge Bahçesi",
     "pkg": "eu.kanade.tachiyomi.extension.tr.golgebahcesi",
@@ -27342,60 +24615,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: CBHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.vi.hentaicube",
-    "apk": "tachiyomi-vi.hentaicube-v1.4.65.apk",
-    "lang": "vi",
-    "code": 65,
-    "version": "1.4.65",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "CBHentai",
-        "lang": "vi",
-        "id": "823638192569572166",
-        "baseUrl": "https://hentaicb.help",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiVN.plus",
-    "pkg": "eu.kanade.tachiyomi.extension.vi.hentaivnplus",
-    "apk": "tachiyomi-vi.hentaivnplus-v1.4.59.apk",
-    "lang": "vi",
-    "code": 59,
-    "version": "1.4.59",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiVN.plus",
-        "lang": "vi",
-        "id": "7015430763374257867",
-        "baseUrl": "https://hentaivn.party",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: LXManga",
-    "pkg": "eu.kanade.tachiyomi.extension.vi.lxhentai",
-    "apk": "tachiyomi-vi.lxhentai-v1.4.24.apk",
-    "lang": "vi",
-    "code": 24,
-    "version": "1.4.24",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "LXManga",
-        "lang": "vi",
-        "id": "6495630445796108150",
-        "baseUrl": "https://lxmanga.my",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: ManhuaRock",
     "pkg": "eu.kanade.tachiyomi.extension.vi.manhuarock",
@@ -27486,24 +24706,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: SayHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.vi.sayhentai",
-    "apk": "tachiyomi-vi.sayhentai-v1.4.16.apk",
-    "lang": "vi",
-    "code": 16,
-    "version": "1.4.16",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "SayHentai",
-        "lang": "vi",
-        "id": "4370817879994829481",
-        "baseUrl": "https://sayhentaii.art",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: Team Lanh Lung",
     "pkg": "eu.kanade.tachiyomi.extension.vi.teamlanhlung",
@@ -27558,24 +24761,7 @@
       }
     ]
   },
-  {
-    "name": "Tachiyomi: Truyen Hentai 18+",
-    "pkg": "eu.kanade.tachiyomi.extension.vi.truyenhentai18",
-    "apk": "tachiyomi-vi.truyenhentai18-v1.4.7.apk",
-    "lang": "vi",
-    "code": 7,
-    "version": "1.4.7",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Truyện Hentai 18+",
-        "lang": "vi",
-        "id": "6484094278517548634",
-        "baseUrl": "https://truyenhentai18.app",
-        "versionId": 1
-      }
-    ]
-  },
+  
   {
     "name": "Tachiyomi: TruyenQQ",
     "pkg": "eu.kanade.tachiyomi.extension.vi.truyenqq",
