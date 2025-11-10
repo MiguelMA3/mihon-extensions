@@ -23,7 +23,7 @@ jobs:
 
       - name: Download original index.json
         run: |
-          curl -s -L "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.json" -o original-index.json
+          curl -s -L "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.json" -o original_index.json
 
       - name: Run filter
         run: |
