@@ -11,10 +11,14 @@ def filter_extensions(data):
     filtered_list = []
     removed_count = 0
 
+    if not isinstance(data, list):
+        print("Erro: O JSON original não é uma lista.")
+        return []
+
     for ext in data:
-        if ext.get('pkg') not in PKG_REMOVE_LIST:
+        if isinstance(ext, dict) and ext.get('pkg') not in PKG_REMOVE_LIST:
             filtered_list.append(ext)
-        else:
+        elif isinstance(ext, dict):
             print(f"Removing: {ext.get('name')} ({ext.get('pkg')})")
             removed_count += 1
 
@@ -52,7 +56,7 @@ def main():
 
     try:
         with open(output_file_min, 'w', encoding='utf-8') as f:
-            json.dump(filtered_data, 'w', separators=(',', ':'), ensure_ascii=False)
+            json.dump(filtered_data, f, separators=(',', ':'), ensure_ascii=False)
         print(f"Minified file saved in: {output_file_min}")
     except IOError as e:
         print(f"Error saving '{output_file_min}': {e}")
