@@ -5,7 +5,35 @@ import glob
 
 PKG_REMOVE_LIST = [
     # --- PORN ---
-    "eu.kanade.tachiyomi.extension.all.nhentai",
+    "eu.kanade.tachiyomi.extension.all.ahottie",
+    "eu.kanade.tachiyomi.extension.all.asmhentai",
+    "eu.kanade.tachiyomi.extension.all.ehentai",
+    "eu.kanade.tachiyomi.extension.all.hentai3",
+    "eu.kanade.tachiyomi.extension.all.hentaicosplay",
+    "eu.kanade.tachiyomi.extension.all.hentaiera",
+    "eu.kanade.tachiyomi.extension.all.hentaifox",
+    "eu.kanade.tachiyomi.extension.all.hentaihand",
+    "eu.kanade.tachiyomi.extension.all.hitomi",
+    "eu.kanade.tachiyomi.extension.all.imhentai",
+    "eu.kanade.tachiyomi.extension.all.mihentai",
+    "eu.kanade.tachiyomi.extension.all.nhentaicom",
+    "eu.kanade.tachiyomi.extension.all.simplyhentai",
+    "eu.kanade.tachiyomi.extension.ar.arabshentai",
+    "eu.kanade.tachiyomi.extension.ar.hentaislayer",
+    "eu.kanade.tachiyomi.extension.ca.fansubscathentai",
+    "eu.kanade.tachiyomi.extension.en.beehentai",
+    "eu.kanade.tachiyomi.extension.en.hentai20",
+    "eu.kanade.tachiyomi.extension.en.hentai2read",
+    "eu.kanade.tachiyomi.extension.en.hentai3zcc",
+    "eu.kanade.tachiyomi.extension.en.hentai4free",
+    "eu.kanade.tachiyomi.extension.en.hentaidex",
+    "eu.kanade.tachiyomi.extension.en.hentaidexy",
+    "eu.kanade.tachiyomi.extension.en.hentaihere",
+    "eu.kanade.tachiyomi.extension.en.hentaimanga",
+    "eu.kanade.tachiyomi.extension.en.hentainexus",
+    "eu.kanade.tachiyomi.extension.en.hentairead",
+    "eu.kanade.tachiyomi.extension.en.hentaiwebtoon",
+    "eu.kanade.tachiyomi.extension.en.hentaixcomic",
 ]
 
 def filter_extensions(data):
