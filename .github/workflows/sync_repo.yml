@@ -13,21 +13,25 @@ jobs:
       - name: Checkout Repo Branch
         uses: actions/checkout@v4
         with:
+          # Checa o branch 'repo'
           ref: repo
+          # O token é necessário para o push forçado
           token: ${{ secrets.GITHUB_TOKEN }} 
           
       - name: Set Up Upstream Remote
         run: |
           git remote add upstream https://github.com/keiyoushi/extensions.git 
 
-      - name: Fetch Upstream and Merge
+      - name: Fetch Upstream and Rebase
         run: |
           echo "Fetching latest changes from upstream..."
           git fetch upstream
           
-          git merge --no-edit upstream/repo
+          # Usa rebase para aplicar nossos commits (.github/workflows) por cima do upstream
+          git rebase upstream/repo
           
       - name: Push Changes to 'repo' Branch
         run: |
-          echo "Pushing synchronized changes to origin/repo..."
-          git push origin repo
+          echo "Pushing synchronized changes (forced with lease) to origin/repo..."
+          # Necessário porque o rebase reescreve o histórico
+          git push origin repo --force-with-lease
