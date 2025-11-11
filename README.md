@@ -1,24 +1,48 @@
-# Keiyoushi Extensions
+# Mihon Extensions (no NSFW)
 
-### Please give the repo a :star:
+Este é um *fork* **filtrado** do repositório de extensões do Keiyoushi, com exclusao de conteúdos específicos (como listado na lógica do *workflow*).
 
-| Build | Need Help? |
-|-------|---------|
-| [![CI](https://github.com/keiyoushi/extensions-source/actions/workflows/build_push.yml/badge.svg)](https://github.com/keiyoushi/extensions-source/actions/workflows/build_push.yml) | [![Discord](https://img.shields.io/discord/1193460528052453448.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/3FbCpdKbdY) |
+**⚠️ Aviso:** Esta é uma fonte de extensões **não oficial e modificada**.
 
-## Usage
-**If you are new to repository/extensions, please read the [Keiyoushi Getting Started guide](https://keiyoushi.github.io/docs/guides/getting-started#adding-the-extension-repo) first.**
+---
 
-* You can add our repo by visiting the [Keiyoushi Website](https://keiyoushi.github.io/add-repo)
-* Otherwise, copy & paste the following URL: https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
+## 🚀 Como Usar este Repositório Filtrado
 
-### Source Code
+**O uso desta fonte é de sua total responsabilidade, pois ela não é a fonte oficial.**
 
-https://github.com/keiyoushi/extensions-source
+Você pode adicionar o repositório **modificado** no seu aplicativo usando a URL direta:
 
-### Report issues
+* **URL do Conteudo Filtrado:**
+    ```
+    https://cdn.jsdelivr.net/gh/MiguelMA3/mihon-extensions@mypack/index.min.json
+    ```
 
-https://github.com/keiyoushi/extensions-source/issues/new/choose
+### 📝 Guia
 
-### Others
-If you're not using any of the above fork then manually download and update extensions from [the listing page](https://keiyoushi.github.io/extensions/)
+1. No aplicativo Mihon, acesse **Navegar**>**Extensoes**
+2. No canto superior direito clique no **menu**>**Repositorio de extensoes**
+3. Clique em **Adicionar** e cole a URL acima.
+
+---
+
+## 🗑️ Filtros Aplicados
+
+Este repositório passa por um processo automatizado (via GitHub Actions) que remove extensões listadas em `PKG_REMOVE_LIST` antes de gerar os arquivos `index.json` e `index.min.json`.
+
+* **Conteúdo Removido:** Conteúdo listado no arquivo `filter_extensions.py` (Principalmente conteúdo NSFW, conforme configurado).
+
+---
+
+## 🔗 Links de Referência
+
+Para documentação oficial, código-fonte e relatórios de problemas sobre as extensões originais:
+
+* **Guia de Introdução (Original):** Leia o [Guia de Introdução da Keiyoushi](https://keiyoushi.github.io/docs/guides/getting-started#adding-the-extension-repo) se você for novo no sistema.
+* **Source Code (Original):** https://github.com/keiyoushi/extensions-source
+* **Reportar Issues (Original):** https://github.com/keiyoushi/extensions-source/issues/new/choose
+
+---
+
+## 🛠️ Outras Opções (Apenas se Não Usar o Fork)
+
+Se você não estiver usando este *fork* filtrado, você pode baixar e atualizar as extensões manualmente a partir da [página de listagem oficial](https://keiyoushi.github.io/extensions/).
