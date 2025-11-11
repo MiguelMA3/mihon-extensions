@@ -18,13 +18,14 @@ jobs:
         with:
           ref: mypack
           fetch-depth: 0 
+          fetch-ref: 'refs/heads/repo'
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Sync metadata and APKs from 'repo' branch
+      - name: Sync updated support files and metadata from 'repo' branch
         run: |
           echo "Copying updated support files and metadata from branch 'repo'..."
 
@@ -32,11 +33,9 @@ jobs:
           git checkout repo -- index.html
           git checkout repo -- repo.json
           
-          # Copy index.json from 'repo' and rename
           git checkout repo -- index.json
           mv index.json original_index.json
 
-          # Copy 'apk' folder
           git checkout repo -- apk
 
       - name: Run filter and APK cleanup
