@@ -17,8 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: mypack
-          fetch-depth: 0 
-          fetch-ref: 'refs/heads/repo'
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,14 +28,14 @@ jobs:
         run: |
           echo "Copying updated support files and metadata from branch 'repo'..."
 
-          git checkout repo -- icon
-          git checkout repo -- index.html
-          git checkout repo -- repo.json
+          git checkout origin/repo -- icon
+          git checkout origin/repo -- index.html
+          git checkout origin/repo -- repo.json
           
-          git checkout repo -- index.json
+          git checkout origin/repo -- index.json
           mv index.json original_index.json
 
-          git checkout repo -- apk
+          git checkout origin/repo -- apk
 
       - name: Run filter and APK cleanup
         run: |
