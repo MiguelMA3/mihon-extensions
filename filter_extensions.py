@@ -13,7 +13,7 @@ def filter_extensions(data):
     removed_count = 0
 
     if not isinstance(data, list):
-        print("Erro: O JSON original não é uma lista.")
+        print("Error: JSON is not a list.")
         return []
 
     for ext in data:
@@ -28,7 +28,37 @@ def filter_extensions(data):
     print(f"Updated: {len(filtered_list)}")
     return filtered_list
 
-def cleanup_apks(filtered_data)
+def cleanup_apks(filtered_data):
+    apk_dir = 'apk'
+    if not os.path.isdir(apk_dir):
+        print(f"Warning: Directory '{apk_dir}' not found. Skipping APK cleanup.")
+        return
+
+    valid_apks = set()
+    for ext in filtered_data:
+        apk_filename = ext.get('apk')
+        if apk_filename:
+            valid_apks(apk_filename)
+
+    print(f"\nTotal valid APKs identified: {len(valid_apks)}")
+
+    current_apks = glob.glob(os.path.join(apk_dir, '*.apk'))
+    removed_apk_count = 0
+
+    for apk_path in current_apks:
+        filename = os.path.basename(apk_path)
+
+        if filename not in valid_apks:
+            print(f"Deleting APK: {filename}")
+            try:
+                os.remove(apk_path)
+                removed_apk_count += 1
+            except OSError as e:
+                print(f"Error deleting file {filename}: {e}")
+
+    print(f"Total deleted APKs: {removed_apk_count}")
+
+
 def main():
     original_file = 'original_index.json'
     output_file = 'index.json'
@@ -36,8 +66,8 @@ def main():
 
     if not os.path.exists(original_file):
         print(f"Error: File '{original_file}' not found.")
-        print("Make sure the GitHub Action download step has been completed.")
-        sys.exit(1)
+        print("Make sure the GitHub Action sync step has been completed.")
+        sys.exit(1) 
 
     try:
         with open(original_file, 'r', encoding='utf-8') as f:
@@ -47,6 +77,8 @@ def main():
         sys.exit(1)
 
     filtered_data = filter_extensions(data)
+
+    cleanup_apks(filtered_data)
 
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
