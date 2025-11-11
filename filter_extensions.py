@@ -1,6 +1,7 @@
 import json
 import sys
 import os
+import glob
 
 PKG_REMOVE_LIST = [
     # --- PORN ---
@@ -27,6 +28,7 @@ def filter_extensions(data):
     print(f"Updated: {len(filtered_list)}")
     return filtered_list
 
+def cleanup_apks(filtered_data)
 def main():
     original_file = 'original_index.json'
     output_file = 'index.json'

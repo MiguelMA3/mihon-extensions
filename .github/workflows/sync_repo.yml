@@ -22,9 +22,12 @@ jobs:
 
       - name: Fetch Upstream and Merge
         run: |
+          echo "Fetching latest changes from upstream..."
           git fetch upstream
+          
           git merge --no-edit upstream/repo
           
       - name: Push Changes to 'repo' Branch
         run: |
+          echo "Pushing synchronized changes to origin/repo..."
           git push origin repo

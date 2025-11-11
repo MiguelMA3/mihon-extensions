@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: mypack
-          fetch-depth: 0
+          fetch-depth: 0 
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,10 +26,17 @@ jobs:
 
       - name: Sync metadata and APKs from 'repo' branch
         run: |
-          echo "Copying index.json and apk folder from branch 'repo'..."
-          git checkout repo --index.json
+          echo "Copying updated support files and metadata from branch 'repo'..."
+
+          git checkout repo -- icon
+          git checkout repo -- index.html
+          git checkout repo -- repo.json
+          
+          # Copy index.json from 'repo' and rename
+          git checkout repo -- index.json
           mv index.json original_index.json
 
+          # Copy 'apk' folder
           git checkout repo -- apk
 
       - name: Run filter and APK cleanup
@@ -45,5 +52,4 @@ jobs:
         with:
           commit_message: "Chore: Atualização de extensões em ${{ env.CURRENT_DATETIME }}"
           branch: mypack
-          # Importante: Incluir a pasta apk/ no commit
-          file_pattern: 'index.json index.min.json apk/'
+          file_pattern: 'index.json index.min.json apk/ icon/ index.html repo.json'
