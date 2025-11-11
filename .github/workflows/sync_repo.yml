@@ -1,0 +1,30 @@
+name: Sync Repo Branch with Upstream
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *' 
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo Branch
+        uses: actions/checkout@v4
+        with:
+          ref: repo
+          token: ${{ secrets.GITHUB_TOKEN }} 
+          
+      - name: Set Up Upstream Remote
+        run: |
+          git remote add upstream https://github.com/keiyoushi/extensions.git 
+
+      - name: Fetch Upstream and Merge
+        run: |
+          git fetch upstream
+          git merge --no-edit upstream/repo
+          
+      - name: Push Changes to 'repo' Branch
+        run: |
+          git push origin repo
