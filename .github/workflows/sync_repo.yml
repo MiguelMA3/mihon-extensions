@@ -17,12 +17,18 @@ jobs:
           ref: repo
           # O token é necessário para o push forçado
           token: ${{ secrets.GITHUB_TOKEN }} 
+
+      # NOVO PASSO: Configura a Identidade do Git para o Runner
+      - name: Configure Git User
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
           
       - name: Set Up Upstream Remote
         run: |
           git remote add upstream https://github.com/keiyoushi/extensions.git 
 
-      - name: Fetch Upstream and Merge
+      - name: Fetch Upstream and Rebase
         run: |
           echo "Fetching latest changes from upstream..."
           git fetch upstream
