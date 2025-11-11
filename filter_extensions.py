@@ -38,7 +38,7 @@ def cleanup_apks(filtered_data):
     for ext in filtered_data:
         apk_filename = ext.get('apk')
         if apk_filename:
-            valid_apks(apk_filename)
+            valid_apks.add(apk_filename)
 
     print(f"\nTotal valid APKs identified: {len(valid_apks)}")
 
