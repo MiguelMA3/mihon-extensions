@@ -22,7 +22,7 @@ jobs:
         run: |
           git remote add upstream https://github.com/keiyoushi/extensions.git 
 
-      - name: Fetch Upstream and Rebase
+      - name: Fetch Upstream and Merge
         run: |
           echo "Fetching latest changes from upstream..."
           git fetch upstream
