@@ -14,7 +14,7 @@ Você pode adicionar o repositório **modificado** no seu aplicativo usando a UR
 
 * **URL do Conteudo Filtrado:**
     ```
-    https://cdn.jsdelivr.net/gh/MiguelMA3/mihon-extensions@mypack/index.min.json
+    https://raw.githubusercontent.com/MiguelMA3/mihon-extensions/refs/heads/mypack/index.min.json
     ```
 
 ### 📝 Guia
