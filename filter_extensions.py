@@ -3,40 +3,24 @@ import sys
 import os
 import glob
 
-PKG_REMOVE_LIST = [
-    # --- PORN ---
-    "eu.kanade.tachiyomi.extension.all.ahottie",
-    "eu.kanade.tachiyomi.extension.all.asmhentai",
-    "eu.kanade.tachiyomi.extension.all.ehentai",
-    "eu.kanade.tachiyomi.extension.all.hentai3",
-    "eu.kanade.tachiyomi.extension.all.hentaicosplay",
-    "eu.kanade.tachiyomi.extension.all.hentaiera",
-    "eu.kanade.tachiyomi.extension.all.hentaifox",
-    "eu.kanade.tachiyomi.extension.all.hentaihand",
-    "eu.kanade.tachiyomi.extension.all.hitomi",
-    "eu.kanade.tachiyomi.extension.all.imhentai",
-    "eu.kanade.tachiyomi.extension.all.mihentai",
-    "eu.kanade.tachiyomi.extension.all.nhentaicom",
-    "eu.kanade.tachiyomi.extension.all.simplyhentai",
-    "eu.kanade.tachiyomi.extension.ar.arabshentai",
-    "eu.kanade.tachiyomi.extension.ar.hentaislayer",
-    "eu.kanade.tachiyomi.extension.ca.fansubscathentai",
-    "eu.kanade.tachiyomi.extension.en.beehentai",
-    "eu.kanade.tachiyomi.extension.en.hentai20",
-    "eu.kanade.tachiyomi.extension.en.hentai2read",
-    "eu.kanade.tachiyomi.extension.en.hentai3zcc",
-    "eu.kanade.tachiyomi.extension.en.hentai4free",
-    "eu.kanade.tachiyomi.extension.en.hentaidex",
-    "eu.kanade.tachiyomi.extension.en.hentaidexy",
-    "eu.kanade.tachiyomi.extension.en.hentaihere",
-    "eu.kanade.tachiyomi.extension.en.hentaimanga",
-    "eu.kanade.tachiyomi.extension.en.hentainexus",
-    "eu.kanade.tachiyomi.extension.en.hentairead",
-    "eu.kanade.tachiyomi.extension.en.hentaiwebtoon",
-    "eu.kanade.tachiyomi.extension.en.hentaixcomic",
-]
+def load_blocked_extensions(file_path):
+    if not os.path.exists(file_path):
+        print(f"Warning: Block file '{file_path} not found. Extensions will not be filtered.")
+        return []
 
-def filter_extensions(data):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            if isinstance(data, list):
+                return data
+            else:
+                print(f"Error: File '{file_path}' must contain a JSON list.")
+                sys.exit(1)
+    except json.JSONDecodeError as e:
+        print(f"Error reading JSON '{file_path}': {e}")
+        sys.exit(1)
+
+def filter_extensions(data, remove_list):
     filtered_list = []
     removed_count = 0
 
@@ -44,12 +28,17 @@ def filter_extensions(data):
         print("Error: JSON is not a list.")
         return []
 
+    remove_set = set(remove_list)
+
     for ext in data:
-        if isinstance(ext, dict) and ext.get('pkg') not in PKG_REMOVE_LIST:
-            filtered_list.append(ext)
-        elif isinstance(ext, dict):
-            print(f"Removing: {ext.get('name')} ({ext.get('pkg')})")
-            removed_count += 1
+        if isinstance(ext, dict):
+            pkg_name = ext.get('pkg')
+            
+            if pkg_name not in remove_set:
+                filtered_list.append(ext)
+            else:
+                print(f"Removing: {ext.get('name')} ({pkg_name})")
+                removed_count += 1
 
     print(f"\nOriginal: {len(data)}")
     print(f"Removed: {removed_count}")
@@ -89,6 +78,7 @@ def cleanup_apks(filtered_data):
 
 def main():
     original_file = 'original_index.json'
+    blocklist_file = 'rm_extensions.json'
     output_file = 'index.json'
     output_file_min = 'index.min.json'
 
@@ -97,6 +87,9 @@ def main():
         print("Make sure the GitHub Action sync step has been completed.")
         sys.exit(1) 
 
+    pkg_remove_list = load_blocked_extensions(blocklist_file)
+    print(f"{len(pkg_remove_list)} Extensions loaded to remove.")
+
     try:
         with open(original_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -104,7 +97,7 @@ def main():
         print(f"Error reading JSON from '{original_file}': {e}")
         sys.exit(1)
 
-    filtered_data = filter_extensions(data)
+    filtered_data = filter_extensions(data, pkg_remove_list)
 
     cleanup_apks(filtered_data)
 
