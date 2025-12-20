@@ -5415,45 +5415,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: NHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.nhentai",
-    "apk": "tachiyomi-all.nhentai-v1.4.54.apk",
-    "lang": "all",
-    "code": 54,
-    "version": "1.4.54",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "NHentai",
-        "lang": "en",
-        "id": "3122156392225024195",
-        "baseUrl": "https://nhentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "NHentai",
-        "lang": "ja",
-        "id": "4726175775739752699",
-        "baseUrl": "https://nhentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "NHentai",
-        "lang": "zh",
-        "id": "2203215402871965477",
-        "baseUrl": "https://nhentai.net",
-        "versionId": 1
-      },
-      {
-        "name": "NHentai",
-        "lang": "all",
-        "id": "7309872737163460316",
-        "baseUrl": "https://nhentai.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: NineManga",
     "pkg": "eu.kanade.tachiyomi.extension.all.ninemanga",
     "apk": "tachiyomi-all.ninemanga-v1.4.22.apk",
@@ -9314,42 +9275,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: HentaiXDickgirl",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaixdickgirl",
-    "apk": "tachiyomi-en.hentaixdickgirl-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiXDickgirl",
-        "lang": "en",
-        "id": "918523496924275699",
-        "baseUrl": "https://hentaixdickgirl.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiXYuri",
-    "pkg": "eu.kanade.tachiyomi.extension.en.hentaixyuri",
-    "apk": "tachiyomi-en.hentaixyuri-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiXYuri",
-        "lang": "en",
-        "id": "1089473637776666044",
-        "baseUrl": "https://hentaixyuri.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: HeyToon",
     "pkg": "eu.kanade.tachiyomi.extension.en.heytoon",
     "apk": "tachiyomi-en.heytoon-v1.4.1.apk",
@@ -10628,24 +10553,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Manga Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.en.mangahentai",
-    "apk": "tachiyomi-en.mangahentai-v1.4.49.apk",
-    "lang": "en",
-    "code": 49,
-    "version": "1.4.49",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manga Hentai",
-        "lang": "en",
-        "id": "8728648053438602039",
-        "baseUrl": "https://mangahentai.me",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Mangahere",
     "pkg": "eu.kanade.tachiyomi.extension.en.mangahere",
     "apk": "tachiyomi-en.mangahere-v1.4.21.apk",
@@ -11775,42 +11682,6 @@
         "lang": "en",
         "id": "5558414343463869543",
         "baseUrl": "https://manhwafreake.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Manhwa Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.en.manhwahentai",
-    "apk": "tachiyomi-en.manhwahentai-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manhwa Hentai",
-        "lang": "en",
-        "id": "5733146869195184954",
-        "baseUrl": "https://manhwahentai.to",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Manhwahentai.me",
-    "pkg": "eu.kanade.tachiyomi.extension.en.manhwahentaime",
-    "apk": "tachiyomi-en.manhwahentaime-v1.4.52.apk",
-    "lang": "en",
-    "code": 52,
-    "version": "1.4.52",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manhwahentai.me",
-        "lang": "en",
-        "id": "40220656998728984",
-        "baseUrl": "https://manhwahentai.me",
         "versionId": 1
       }
     ]
